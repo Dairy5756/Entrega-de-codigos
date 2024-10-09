@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Evidencias_de_C_
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+           int x;
+           int y;
+
+           x = 7;
+           y = x + 3;
+
+           Console.WriteLine(y);
+           Console.ReadLine();
+           */
+
+            Console.WriteLine("Cual es tu nombre? ");
+            Console.Write("Escribe tu primer nombre: ");
+            string Nombre;
+            Nombre = Console.ReadLine();
+
+            /*
+            Console.Write("Cual es tu apellido? ");
+            Console.Write("Escribe tu apellido: ");
+            string Apellido;
+            Apellido = Console.ReadLine();
+            */
+
+            Console.Write("Escribe tu apellido: ");
+            string miApellido = Console.ReadLine();
+
+            Console.WriteLine("Hola, " + Nombre + " " + miApellido);
+            Console.ReadLine();
+        }
+    }
+}
