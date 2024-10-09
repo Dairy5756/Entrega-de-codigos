@@ -10,34 +10,35 @@ namespace Evidencias_de_C_
     {
         static void Main(string[] args)
         {
-            /*
-           int x;
-           int y;
+             /*
+            int x;
+            int y;
 
-           x = 7;
-           y = x + 3;
+            x = 7;
+            y = x + 3;
 
-           Console.WriteLine(y);
-           Console.ReadLine();
-           */
-
-            Console.WriteLine("Cual es tu nombre? ");
-            Console.Write("Escribe tu primer nombre: ");
-            string Nombre;
-            Nombre = Console.ReadLine();
-
-            /*
-            Console.Write("Cual es tu apellido? ");
-            Console.Write("Escribe tu apellido: ");
-            string Apellido;
-            Apellido = Console.ReadLine();
+            Console.WriteLine(y);
+            Console.ReadLine();
             */
 
-            Console.Write("Escribe tu apellido: ");
-            string miApellido = Console.ReadLine();
+            Console.WriteLine("What's your name? ");
+            Console.Write("Type your first name: ");
+            string firstName;
+            firstName = Console.ReadLine();
 
-            Console.WriteLine("Hola, " + Nombre + " " + miApellido);
+            /*
+            Console.Write("What's your last name? ");
+            Console.Write("Type your last name: ");
+            string lastName;
+            lastName = Console.ReadLine();
+            */
+
+            Console.Write("Type your last name: ");
+            string myLastName = Console.ReadLine();
+
+            Console.WriteLine("Hello, " + firstName + " " + myLastName);
             Console.ReadLine();
         }
     }
 }
+     
